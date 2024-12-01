@@ -273,9 +273,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 415666793}
-        m_TargetAssemblyTypeName: Scene_main, Assembly-CSharp
-        m_MethodName: StartButtonClickHandler
+      - m_Target: {fileID: 415666795}
+        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
+        m_MethodName: SettingButtonClickHandler
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -332,7 +332,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 415666794}
-  - component: {fileID: 415666793}
+  - component: {fileID: 415666795}
   m_Layer: 0
   m_Name: MainSceneManager
   m_TagString: Untagged
@@ -340,18 +340,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &415666793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 415666792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7de2b4a494f25a94dbdb846cc0eeb45e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &415666794
 Transform:
   m_ObjectHideFlags: 0
@@ -367,6 +355,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &415666795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415666792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a48a0026d276ec4593be33b09bbe18a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &449738627
 GameObject:
   m_ObjectHideFlags: 0
@@ -823,8 +823,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 415666793}
-        m_TargetAssemblyTypeName: Scene_main, Assembly-CSharp
+      - m_Target: {fileID: 415666795}
+        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: SettingButtonClickHandler
         m_Mode: 1
         m_Arguments:

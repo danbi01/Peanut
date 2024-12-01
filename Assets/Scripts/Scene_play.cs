@@ -5,9 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Scene_play : MonoBehaviour
 {
-    public static void BackButtonClickHandler(){
-        SceneManager.LoadScene("Main");
-    }
+    
     void Start()
     {
         
